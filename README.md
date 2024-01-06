@@ -31,44 +31,50 @@ SkillLab is an innovative e-commerce web application tailored to provide a diver
 # User Stories
 
 ## Admin Functionality
-1. **As an Administrator,**
+ **As an Administrator,**
    - I want to add new courses, provide comprehensive details, setting prices, and assigning relevant categories.
    - *Objective:* Expand the course offerings and maintain diversity.
 
-2. **As an Administrator,**
+ **As an Administrator,**
    - I aim to ensure authorized access during user sign-up, log-in, and log-out processes.
    - *Objective:* Uphold security measures for user accounts.
 
 ## User Experience
-3. **As a User,**
+ **As a User,**
    - I seek a seamless browsing experience without page refresh when interacting with forms or other elements.
    - *Objective:* Enhance user interaction without interruptions.
 
-4. **As a Visitor,**
+ **As a Visitor,**
    - I desire a user-friendly interface to easily comprehend the website's purpose and details.
    - *Objective:* Provide intuitive navigation for new visitors.
 
-5. **As a User,**
+ **As a User,**
    - I aim to effortlessly browse and search courses by category, facilitating the discovery of courses aligned with my interests.
    - *Objective:* Facilitate easy exploration based on user preferences.
 
-6. **As a User,**
+ **As a User,**
    - I wish to manage courses in my cart, including the option to remove items as necessary, maintaining control over my shopping experience.
    - *Objective:* Grant users flexibility and control in their cart management.
 
-7. **As a User,**
+ **As a User,**
    - I intend to add courses to my cart, simplifying the process of tracking and managing desired courses.
    - *Objective:* Enable efficient tracking of preferred courses for potential purchase.
 
-8. **As a User,**
+ **As a User,**
    - I seek comprehensive course details such as title, description, price, and instructor information to make informed decisions regarding enrollment.
    - *Objective:* Provide necessary information for informed course selection.
 
 ## Administrator Account Management
-9. **As an Administrator,**
+ **As an Administrator,**
    - I need access to view and manage user accounts, including user information, to offer support and ensure a seamless user experience.
    - *Objective:* Facilitate user management for improved support and experience.
 
+
+## Getting Started
+
+- Clone the SkillLab repository to your local environment.
+- Install required dependencies using `npm install`.
+- Start the application by running `npm start`.
 
 ## Key Features
 
@@ -94,6 +100,24 @@ SkillLab is an innovative e-commerce web application tailored to provide a diver
 - MongoDB
 - React
 - Bootstrap
+
+
+### Future Features
+
+- **Course Review:** Implementing a system for users to review and rate courses, facilitating feedback and evaluation.
+
+- **Payment:** Integration of a secure payment gateway to facilitate seamless and secure transactions for course enrollment.
+
+- **Course Videos (Material):** Incorporation of multimedia learning materials, such as videos, to enhance the course content and learning experience.
+
+- **1-1 Instructor Guidance:** Providing personalized guidance enabling direct interaction between users and instructors for individualized assistance.
+
+- **Discussion:** Introduction of a discussion forum where users can engage in course-related discussions, promoting interaction and knowledge sharing.
+
+- **Sign-in Options:** Offering users the convenience of signing in using popular social platforms like Google or other third-party authentication methods.
+
+- **Wishlist:** Enable users to create a tailored collection of preferred courses, providing a practical way to bookmark and revisit courses for future consideration or when they become more aligned with the user's learning goals.
+
 
 ## Backend Dependencies
 
@@ -121,12 +145,4 @@ SkillLab is an innovative e-commerce web application tailored to provide a diver
 - **react-router-dom**: Enables efficient routing in React applications.
 - **react-scripts**: Configures and provides scripts for React applications.
 - **web-vitals**: Measures and reports web performance metrics.
-
-
-## Getting Started
-
-- Clone the SkillLab repository to your local environment.
-- Install required dependencies using `npm install`.
-- Start the application by running `npm start`.
-
 
